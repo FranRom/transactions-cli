@@ -6,12 +6,6 @@ A command line tool that ingest a JSON file containing a list of credit/debit ca
 
 ## How it works
 
-To get CLI info add the option
-
-```sh
- --help
-```
-
 The JSON file must have an array of transactions, each transaction must have the following structure:
 
 ```sh
@@ -34,6 +28,8 @@ where currency are limited to
 ```
 
 - If a transaction have missing or malformed data the record will be discarded logging info about it.
+- Amount must be a string that contains negative or positive prefix and a number
+- Timestamp must be a string with valid UTC date-time as per ISO 8601
 - The maximum file size by default is 1Mb
 - The only file extension accepted is `.json`
 
