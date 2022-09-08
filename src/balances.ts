@@ -44,7 +44,7 @@ export const isStringANumberWithSymbol = (str: string | undefined): boolean => {
 }
 
 export const formatNumberToString = (num: number): string => {
-  const localeString = num === 0 ? String(num) : num.toLocaleString(undefined, { minimumFractionDigits: 2 })
+  const localeString = num === 0 ? String(num) : num.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })
   const numberWithSign = (num <= 0 ? '' : '+') + localeString
 
   return numberWithSign

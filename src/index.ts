@@ -63,7 +63,7 @@ const printTable = (balances: Result) => {
 program
   .version('0.0.1')
   .name('balances')
-  .description('A CLI for processing transactions')
+  .description('A CLI for processing transactions and get balances')
   .option('-m , --maxFileSize [maxFileSize]', 'Set the max file size to accept in Mb', String(DEFAULT_MAX_FILE_SIZE_MEGABYTES))
   .argument('<jsonPath>', 'path to load the json file with transactions')
   .action((jsonPath, { maxFileSize }) => calculateBalances(jsonPath, maxFileSize))
