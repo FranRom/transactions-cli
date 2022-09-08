@@ -1,0 +1,32 @@
+[
+  {
+    "user_id": "4a1b84f7-9756-4549-837e-9574c7ffc142",
+    "timestamp": "1970-01-01T00:00:00.000Z",
+    "currency": "USD",
+    "amount": "-12.00"
+  },
+  {
+    "user_id": "4a1b84f7-9756-4549-837e-9574c7ffc142",
+    "timestamp": "1980-01-01T00:00:00.000Z",
+    "currency": "USD",
+    "amount": "-8.00"
+  },
+  {
+    "user_id": "4a1b84f7-9756-4549-837e-9574c7ffc142",
+    "timestamp": "2010-09-01T00:00:00.000Z",
+    "currency": "EUR",
+    "amount": "-10.00"
+  },
+  {
+    "user_id": "4a1b84f7-9756-4549-837e-9574c7ffc142",
+    "timestamp": "2022-09-06T15:34:04.545Z",
+    "currency": "EUR",
+    "amount": "+30.00"
+  },
+  {
+    "user_id": "faf4a6fe-c839-4ee3-ac11-ee3957ac6332",
+    "timestamp": "1970-01-01T00:00:00.000Z",
+    "currency": "EUR",
+    "amount": "-3.99"
+  }
+]
